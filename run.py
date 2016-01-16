@@ -7,12 +7,12 @@ def main():
 
     data_type = input('Input your code type eg:Morse \n')
 
-    msg = input('Type msg \n')
-
     if data_type == 'morse':
+        msg = input('Type msg \n')
         r = morse.decode_morse(msg)
         print (r)
     elif data_type == 'Morse':
+        msg = input('Type msg \n')
         r = morse.decode_morse(msg)
         print (r)
     else:
