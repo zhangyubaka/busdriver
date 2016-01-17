@@ -11,7 +11,7 @@ def main():
 
     data_type = input('Input your code type eg:Morse \n')
 
-    if data_type == 'morse' or data_type == 'Morse' or data_type == ‘摩丝’:
+    if data_type == 'morse' or data_type == 'Morse' or data_type =='摩丝':
         msg = input('Type msg \n')
         r = morse.decode_morse(msg)
         print (r)
