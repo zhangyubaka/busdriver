@@ -3,7 +3,7 @@ import re
 from codec import morse
 import sys
 
-if "-h" in sys.argv or "--help" in sys.argv or len(sys.argv) < 2:
+if "-h" in sys.argv or "--help" in sys.argv or len(sys.argv) > 2:
     print ("Just run this program")
     exit(-1)
 
@@ -11,7 +11,7 @@ def main():
 
     data_type = input('Input your code type eg:Morse \n')
 
-    if data_type == 'morse' or data_type == 'Morse' or data_type =='摩丝':
+    if data_type == 'morse' or data_type == 'Morse' or data_type =='摩丝' or data_type = '莫斯':
         msg = input('Type msg \n')
         r = morse.decode_morse(msg)
         print (r)
