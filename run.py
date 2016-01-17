@@ -4,7 +4,7 @@ from codec import morse
 import sys
 
 if "-h" in sys.argv or "--help" in sys.argv or len(sys.argv) > 2:
-    print ("Just run this program")
+    print ("Support Morse code only now")
     exit(-1)
 
 def main():
