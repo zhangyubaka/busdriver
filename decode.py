@@ -17,7 +17,7 @@ def main():
     elif data_type == 'budda' or data_type == '佛经' or data_type == 'Budda':
         print ("Please go to http://www.keyfc.net/bbs/tools/tudoucode.aspx")
     else:
-        print("We don't support this type yet \n")
+        print("We don't support this type of code yet \n")
 
 
 main()
